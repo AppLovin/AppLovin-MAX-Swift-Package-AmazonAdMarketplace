@@ -15,7 +15,7 @@ The AppLovin MAX Amazon Publisher Services mediation adapter for iOS, distribute
 1. In Xcode, choose **File > Add Package Dependencies…**
 2. Enter the repository URL:
    ```
-   https://github.com/AppLovin/AppLovin-MAX-Swift-Package-Amazon
+   https://github.com/AppLovin/AppLovin-MAX-Swift-Package-AmazonAdMarketplace
    ```
 3. Select **Exact Version** and enter the encoded version (e.g. `13040000.0.0` for adapter version `13.4.0.0`).
 4. Add the `AppLovinMediationAmazonAdMarketplaceAdapter` product to your app target.
@@ -25,7 +25,7 @@ The AppLovin MAX Amazon Publisher Services mediation adapter for iOS, distribute
 ```swift
 dependencies: [
     .package(
-        url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package-Amazon.git",
+        url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package-AmazonAdMarketplace.git",
         exact: ""
     )
 ]
