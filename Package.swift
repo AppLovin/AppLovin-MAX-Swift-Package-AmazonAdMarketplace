@@ -10,7 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "AppLovinMediationAmazonAdMarketplaceAdapter",
-            targets: ["AppLovinMediationge-AmazonAdMarketplaceAdapterTarget"]),
+            targets: ["AppLovinMediationAmazonAdMarketplaceAdapterTarget"]),
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "13.0.0"),
