@@ -34,7 +34,7 @@ dependencies: [
 ## Included dependencies
 
 - [`AppLovinSDK`](https://github.com/AppLovin/AppLovin-MAX-Swift-Package) (>= 13.0.0)
-- [`AmazonPublisherServicesSDK`](https://github.com/AppLovin/AppLovin-MAX-Swift-Package-AmazonAdMarketplace) (pinned to the version certified for this adapter release)
+- [`AmazonPublisherServicesSDK`](https://github.com/amzn/swift-package-manager-amazon-aps) (pinned to the version certified for this adapter release)
 
 ## More information
 
