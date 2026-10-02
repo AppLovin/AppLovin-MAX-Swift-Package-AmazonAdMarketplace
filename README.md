@@ -17,7 +17,7 @@ The AppLovin MAX Amazon Publisher Services mediation adapter for iOS, distribute
    ```
    https://github.com/AppLovin/AppLovin-MAX-Swift-Package-AmazonAdMarketplace
    ```
-3. Select **Exact Version** and enter the encoded version (e.g. `13040000.0.0` for adapter version `13.4.0.0`).
+3. Select **Exact Version** and enter the encoded version (e.g. `5060600.0.0` for adapter version `5.6.6.0`).
 4. Add the `AppLovinMediationAmazonAdMarketplaceAdapter` product to your app target.
 
 ### Package.swift
@@ -26,7 +26,7 @@ The AppLovin MAX Amazon Publisher Services mediation adapter for iOS, distribute
 dependencies: [
     .package(
         url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package-AmazonAdMarketplace.git",
-        exact: ""
+        exact: "5060600.0.0"
     )
 ]
 ```
@@ -34,7 +34,7 @@ dependencies: [
 ## Included dependencies
 
 - [`AppLovinSDK`](https://github.com/AppLovin/AppLovin-MAX-Swift-Package) (>= 13.0.0)
-- [``]() (pinned to the version certified for this adapter release)
+- []()[AmazonPublisherServicesSDK](https://github.com/AppLovin/AppLovin-MAX-Swift-Package-AmazonAdMarketplace) (pinned to the version certified for this adapter release)
 
 ## More information
 
