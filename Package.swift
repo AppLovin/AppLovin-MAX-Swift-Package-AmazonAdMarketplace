@@ -29,7 +29,7 @@ let package = Package(
         .binaryTarget(
             name: "AppLovinMediationAmazonAdMarketplaceAdapter",
             url: "https://artifacts.applovin.com/ios/com/applovin/mediation/amazonadmarketplace-adapter/AppLovinMediationAmazonAdMarketplaceAdapter-5.6.6.0.zip",
-            checksum: "5025e242a34ee7cf774167091a81ef7bd6d63d6f1696a2eb165579560a68b47d"
+            checksum: "2c124d018165b10016e250741493aa6a81cf5062b1fa1cd8a60281a602da8994"
         )
     ]
 )
