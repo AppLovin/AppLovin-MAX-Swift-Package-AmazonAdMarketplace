@@ -6,7 +6,7 @@ import PackageDescription
 
 let package = Package(
     name: "AppLovinMediationAmazonAdMarketplaceAdapter",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "AppLovinMediationAmazonAdMarketplaceAdapter",
@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "13.0.0"),
-        .package(url: "https://github.com/amzn/swift-package-manager-amazon-aps.git", exact: "5.6.6")
+        .package(url: "https://github.com/amzn/swift-package-manager-amazon-aps.git", exact: "5.7.0")
     ],
     targets: [
         .target(
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationAmazonAdMarketplaceAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/amazonadmarketplace-adapter/AppLovinMediationAmazonAdMarketplaceAdapter-5.6.6.1.zip",
-            checksum: "6766a167eab94c41bfb6db96b31e2a0c632e77da4658ddb32bac3b3c9a92bd26"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/amazonadmarketplace-adapter/AppLovinMediationAmazonAdMarketplaceAdapter-5.7.0.0.zip",
+            checksum: "757f017ce17be10459eb2f98b51505a0225ee714acb3985e1e1d620184d8ca2e"
         )
     ]
 )
